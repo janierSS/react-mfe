@@ -1,0 +1,1 @@
+export {default as counterFeature} from './components/counter.feature';
