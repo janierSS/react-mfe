@@ -10,7 +10,8 @@ export default defineConfig({
         open: true,
     },
     build: {
-        outDir: 'dist',
+        outDir: '../angular-host/src/artifacts',
+        // outDir: 'dist',
         rollupOptions: {
             input: 'src/exports.ts',
             output: {
