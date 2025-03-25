@@ -8,8 +8,9 @@ const CounterB: React.FC = () => {
     <div className={styles.container}>
       <div className={styles["container__header"]}>
         <img src={logo} alt="logo" />
-        <h1>React MFE</h1>
+        <h1>React</h1>
       </div>
+      <p>When clicked sends windows event</p>
       <div className={styles["container__buttons"]}>
         <button onClick={() => eventDispatcher("increment-b")}>
           Increment

@@ -11,7 +11,7 @@ const CounterA: React.FC<CounterAProps> = ({ count }) => {
     <div className={styles.container}>
       <div className={styles["container__header"]}>
         <img src={logo} alt="logo" />
-        <h1>React MFE</h1>
+        <h1>React</h1>
       </div>
       <p>Counter: {count}</p>
     </div>
